@@ -4,12 +4,36 @@ import bcrypt from "bcryptjs";
 const prisma = new PrismaClient();
 
 const categories = [
-  { name: "Roll Labels", slug: "roll-labels" },
-  { name: "Die-Cut Stickers", slug: "die-cut-stickers" },
-  { name: "Holographic Labels", slug: "holographic-labels" },
-  { name: "Kraft Paper Labels", slug: "kraft-paper-labels" },
-  { name: "Waterproof Labels", slug: "waterproof-labels" },
-  { name: "Barcode Labels", slug: "barcode-labels" },
+  {
+    name: "Roll Labels",
+    slug: "roll-labels",
+    image: "/images/gallery/sai-09.jpeg",
+  },
+  {
+    name: "Die-Cut Stickers",
+    slug: "die-cut-stickers",
+    image: "/images/gallery/sai-04.jpeg",
+  },
+  {
+    name: "Holographic Labels",
+    slug: "holographic-labels",
+    image: "/images/gallery/sai-03.jpeg",
+  },
+  {
+    name: "Kraft Paper Labels",
+    slug: "kraft-paper-labels",
+    image: "/images/gallery/sai-14.jpeg",
+  },
+  {
+    name: "Waterproof Labels",
+    slug: "waterproof-labels",
+    image: "/images/gallery/sai-02.jpeg",
+  },
+  {
+    name: "Barcode Labels",
+    slug: "barcode-labels",
+    image: "/images/gallery/sai-01.jpeg",
+  },
 ];
 
 const productsByCategory: Record<
@@ -17,7 +41,7 @@ const productsByCategory: Record<
   {
     name: string;
     slug: string;
-    image: string;
+    images: string[];
     tiers: { label: string; qty: number; price: number }[];
   }[]
 > = {
@@ -25,7 +49,7 @@ const productsByCategory: Record<
     {
       name: "Glossy Roll Labels",
       slug: "glossy-roll-labels",
-      image: "/images/gallery/sai-09.jpeg",
+      images: ["/images/gallery/sai-09.jpeg", "/images/gallery/sai-13.jpeg"],
       tiers: [
         { label: "250", qty: 250, price: 349 },
         { label: "500", qty: 500, price: 599 },
@@ -37,7 +61,7 @@ const productsByCategory: Record<
     {
       name: "Custom Die-Cut Stickers",
       slug: "custom-die-cut-stickers",
-      image: "/images/gallery/sai-04.jpeg",
+      images: ["/images/gallery/sai-04.jpeg", "/images/gallery/sai-06.jpeg"],
       tiers: [
         { label: "50", qty: 50, price: 199 },
         { label: "100", qty: 100, price: 349 },
@@ -48,7 +72,7 @@ const productsByCategory: Record<
     {
       name: "Holographic Labels",
       slug: "holographic-labels-product",
-      image: "/images/gallery/sai-03.jpeg",
+      images: ["/images/gallery/sai-03.jpeg", "/images/gallery/sai-11.jpeg"],
       tiers: [
         { label: "25", qty: 25, price: 249 },
         { label: "50", qty: 50, price: 429 },
@@ -59,7 +83,7 @@ const productsByCategory: Record<
     {
       name: "Kraft Paper Labels",
       slug: "kraft-paper-labels-product",
-      image: "/images/gallery/sai-14.jpeg",
+      images: ["/images/gallery/sai-14.jpeg", "/images/gallery/sai-07.jpeg"],
       tiers: [
         { label: "100", qty: 100, price: 299 },
         { label: "250", qty: 250, price: 649 },
@@ -70,7 +94,7 @@ const productsByCategory: Record<
     {
       name: "Waterproof Vinyl Labels",
       slug: "waterproof-vinyl-labels",
-      image: "/images/gallery/sai-02.jpeg",
+      images: ["/images/gallery/sai-02.jpeg", "/images/gallery/sai-08.jpeg"],
       tiers: [
         { label: "100", qty: 100, price: 399 },
         { label: "250", qty: 250, price: 849 },
@@ -81,7 +105,7 @@ const productsByCategory: Record<
     {
       name: "Barcode Labels",
       slug: "barcode-labels-product",
-      image: "/images/gallery/sai-01.jpeg",
+      images: ["/images/gallery/sai-01.jpeg", "/images/gallery/sai-05.jpeg"],
       tiers: [
         { label: "500", qty: 500, price: 449 },
         { label: "1000", qty: 1000, price: 799 },
@@ -94,7 +118,7 @@ async function main() {
   for (const category of categories) {
     const createdCategory = await prisma.category.upsert({
       where: { slug: category.slug },
-      update: {},
+      update: { image: category.image },
       create: category,
     });
 
@@ -119,16 +143,19 @@ async function main() {
         },
       });
 
-      await prisma.productImage.upsert({
-        where: { id: `${createdProduct.id}-primary` },
-        update: { url: product.image },
-        create: {
-          id: `${createdProduct.id}-primary`,
+      // Replace this product's images wholesale rather than upserting by id —
+      // avoids accumulating orphaned rows if the image list or id scheme
+      // ever changes between seed runs.
+      await prisma.productImage.deleteMany({
+        where: { productId: createdProduct.id },
+      });
+      await prisma.productImage.createMany({
+        data: product.images.map((url, i) => ({
           productId: createdProduct.id,
-          url: product.image,
+          url,
           altText: product.name,
-          sortOrder: 0,
-        },
+          sortOrder: i,
+        })),
       });
     }
   }
