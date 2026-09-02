@@ -1,6 +1,8 @@
 import { prisma } from "@/lib/prisma";
 import { createCategory, deleteCategory } from "@/app/admin/actions";
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminCategoriesPage() {
   const categories = await prisma.category.findMany({
     include: { _count: { select: { products: true } } },

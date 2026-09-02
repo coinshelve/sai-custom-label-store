@@ -3,9 +3,7 @@ generator client {
 }
 
 datasource db {
-  // SQLite for zero-setup local dev. Switch provider to "postgresql" and
-  // point DATABASE_URL at a Postgres instance (e.g. Neon/Supabase) for prod.
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

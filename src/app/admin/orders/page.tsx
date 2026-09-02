@@ -3,6 +3,8 @@ import { updateOrderStatus } from "@/app/admin/actions";
 
 const STATUSES = ["PENDING", "PAID", "FAILED", "SHIPPED", "DELIVERED", "CANCELLED"] as const;
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminOrdersPage() {
   const orders = await prisma.order.findMany({
     include: { customer: true, items: { include: { product: true } } },

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
-import { razorpay } from "@/lib/razorpay";
+import { getRazorpay } from "@/lib/razorpay";
 
 const checkoutSchema = z.object({
   name: z.string().min(1),
@@ -95,7 +95,7 @@ export async function POST(request: Request) {
       },
     });
 
-    const razorpayOrder = await razorpay.orders.create({
+    const razorpayOrder = await getRazorpay().orders.create({
       amount: Math.round(total * 100), // paise
       currency: "INR",
       receipt: order.id,
