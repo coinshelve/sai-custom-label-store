@@ -21,6 +21,7 @@ export function ProductForm({
     categoryId: string;
     published: boolean;
     variants: Tier[];
+    imageUrl: string | null;
   };
 }) {
   const [tiers, setTiers] = useState<Tier[]>(
@@ -40,6 +41,19 @@ export function ProductForm({
         defaultValue={product?.name}
         className="w-full rounded border border-stone-300 px-3 py-2 text-sm"
       />
+
+      <div>
+        <input
+          name="imageUrl"
+          placeholder="Image URL (e.g. /images/gallery/sai-01.jpeg)"
+          defaultValue={product?.imageUrl ?? ""}
+          className="w-full rounded border border-stone-300 px-3 py-2 text-sm"
+        />
+        <p className="mt-1 text-xs text-stone-500">
+          A path under /public (e.g. /images/gallery/sai-01.jpeg) or a full
+          image URL.
+        </p>
+      </div>
 
       <textarea
         name="description"

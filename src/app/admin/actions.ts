@@ -48,6 +48,7 @@ export async function saveProduct(formData: FormData) {
   const name = String(formData.get("name") ?? "").trim();
   const description = String(formData.get("description") ?? "").trim();
   const categoryId = String(formData.get("categoryId") ?? "");
+  const imageUrl = String(formData.get("imageUrl") ?? "").trim();
   const published = formData.get("published") === "on";
   const tierLabels = formData.getAll("tierLabel").map(String);
   const tierPrices = formData.getAll("tierPrice").map(Number);
@@ -84,6 +85,7 @@ export async function saveProduct(formData: FormData) {
     await prisma.productVariant.createMany({
       data: variants.map((v) => ({ ...v, productId: id })),
     });
+    await saveProductImage(id, imageUrl);
   } else {
     const slugBase = slugify(name);
     let slug = slugBase;
@@ -92,7 +94,7 @@ export async function saveProduct(formData: FormData) {
       slug = `${slugBase}-${++suffix}`;
     }
 
-    await prisma.product.create({
+    const created = await prisma.product.create({
       data: {
         name,
         slug,
@@ -103,10 +105,26 @@ export async function saveProduct(formData: FormData) {
         variants: { create: variants },
       },
     });
+    await saveProductImage(created.id, imageUrl);
   }
 
   revalidatePath("/admin/products");
   redirect("/admin/products");
+}
+
+async function saveProductImage(productId: string, imageUrl: string) {
+  const primaryImageId = `${productId}-primary`;
+
+  if (!imageUrl) {
+    await prisma.productImage.deleteMany({ where: { id: primaryImageId } });
+    return;
+  }
+
+  await prisma.productImage.upsert({
+    where: { id: primaryImageId },
+    update: { url: imageUrl },
+    create: { id: primaryImageId, productId, url: imageUrl, sortOrder: 0 },
+  });
 }
 
 export async function deleteProduct(formData: FormData) {
