@@ -14,12 +14,18 @@ const categories = [
 
 const productsByCategory: Record<
   string,
-  { name: string; slug: string; tiers: { label: string; qty: number; price: number }[] }[]
+  {
+    name: string;
+    slug: string;
+    image: string;
+    tiers: { label: string; qty: number; price: number }[];
+  }[]
 > = {
   "roll-labels": [
     {
       name: "Glossy Roll Labels",
       slug: "glossy-roll-labels",
+      image: "/images/gallery/sai-09.jpeg",
       tiers: [
         { label: "250", qty: 250, price: 349 },
         { label: "500", qty: 500, price: 599 },
@@ -31,6 +37,7 @@ const productsByCategory: Record<
     {
       name: "Custom Die-Cut Stickers",
       slug: "custom-die-cut-stickers",
+      image: "/images/gallery/sai-04.jpeg",
       tiers: [
         { label: "50", qty: 50, price: 199 },
         { label: "100", qty: 100, price: 349 },
@@ -41,6 +48,7 @@ const productsByCategory: Record<
     {
       name: "Holographic Labels",
       slug: "holographic-labels-product",
+      image: "/images/gallery/sai-03.jpeg",
       tiers: [
         { label: "25", qty: 25, price: 249 },
         { label: "50", qty: 50, price: 429 },
@@ -51,6 +59,7 @@ const productsByCategory: Record<
     {
       name: "Kraft Paper Labels",
       slug: "kraft-paper-labels-product",
+      image: "/images/gallery/sai-14.jpeg",
       tiers: [
         { label: "100", qty: 100, price: 299 },
         { label: "250", qty: 250, price: 649 },
@@ -61,6 +70,7 @@ const productsByCategory: Record<
     {
       name: "Waterproof Vinyl Labels",
       slug: "waterproof-vinyl-labels",
+      image: "/images/gallery/sai-02.jpeg",
       tiers: [
         { label: "100", qty: 100, price: 399 },
         { label: "250", qty: 250, price: 849 },
@@ -71,6 +81,7 @@ const productsByCategory: Record<
     {
       name: "Barcode Labels",
       slug: "barcode-labels-product",
+      image: "/images/gallery/sai-01.jpeg",
       tiers: [
         { label: "500", qty: 500, price: 449 },
         { label: "1000", qty: 1000, price: 799 },
@@ -90,7 +101,7 @@ async function main() {
     for (const product of productsByCategory[category.slug] ?? []) {
       const basePrice = Math.min(...product.tiers.map((t) => t.price));
 
-      await prisma.product.upsert({
+      const createdProduct = await prisma.product.upsert({
         where: { slug: product.slug },
         update: {},
         create: {
@@ -105,6 +116,18 @@ async function main() {
               price: tier.price,
             })),
           },
+        },
+      });
+
+      await prisma.productImage.upsert({
+        where: { id: `${createdProduct.id}-primary` },
+        update: { url: product.image },
+        create: {
+          id: `${createdProduct.id}-primary`,
+          productId: createdProduct.id,
+          url: product.image,
+          altText: product.name,
+          sortOrder: 0,
         },
       });
     }
