@@ -33,6 +33,12 @@ export function ProductPurchasePanel({
     );
   }
 
+  const unitPrices = variants.map((v) => {
+    const qty = Number(v.label.replace(/[^0-9]/g, "")) || 1;
+    return v.price / qty;
+  });
+  const baseUnitPrice = unitPrices[0];
+
   return (
     <div className="mt-6">
       <p className="text-2xl font-bold text-stone-900">
@@ -60,6 +66,47 @@ export function ProductPurchasePanel({
           ))}
         </div>
       </fieldset>
+
+      {variants.length > 1 && (
+        <div className="mt-4 overflow-hidden rounded-lg border border-stone-200">
+          <table className="w-full text-left text-xs">
+            <thead className="bg-stone-50 text-stone-500">
+              <tr>
+                <th className="px-3 py-2 font-medium">Quantity</th>
+                <th className="px-3 py-2 font-medium">Price</th>
+                <th className="px-3 py-2 font-medium">Per unit</th>
+                <th className="px-3 py-2 font-medium">Savings</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-100">
+              {variants.map((variant, i) => {
+                const savingsPct = Math.round(
+                  (1 - unitPrices[i] / baseUnitPrice) * 100,
+                );
+                return (
+                  <tr
+                    key={variant.id}
+                    className={
+                      variant.id === selected.id ? "bg-brand-50" : undefined
+                    }
+                  >
+                    <td className="px-3 py-2 text-stone-700">{variant.label}</td>
+                    <td className="px-3 py-2 font-medium text-stone-900">
+                      ₹{variant.price.toFixed(2)}
+                    </td>
+                    <td className="px-3 py-2 text-stone-500">
+                      ₹{unitPrices[i].toFixed(2)}
+                    </td>
+                    <td className="px-3 py-2 text-emerald-700">
+                      {savingsPct > 0 ? `Save ${savingsPct}%` : "—"}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
 
       <button
         type="button"

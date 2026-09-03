@@ -3,6 +3,7 @@ import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { ProductPurchasePanel } from "@/components/product/ProductPurchasePanel";
 import { ProductGallery } from "@/components/product/ProductGallery";
+import { RelatedProducts } from "@/components/product/RelatedProducts";
 
 export default async function ProductPage({
   params,
@@ -81,6 +82,13 @@ export default async function ProductPage({
             </div>
           </dl>
         </div>
+      </div>
+
+      <div className="mt-16 -mx-6">
+        <RelatedProducts
+          categoryId={product.categoryId}
+          excludeProductId={product.id}
+        />
       </div>
     </div>
   );

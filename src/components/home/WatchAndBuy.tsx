@@ -1,10 +1,10 @@
 import { prisma } from "@/lib/prisma";
 import { WatchAndBuyGrid, type WatchAndBuyItem } from "./WatchAndBuyGrid";
 
-const VIDEOS = Array.from(
-  { length: 9 },
-  (_, i) => `/videos/products/product-${i + 1}.mp4`,
-);
+const VIDEOS = Array.from({ length: 9 }, (_, i) => ({
+  video: `/videos/products/product-${i + 1}.mp4`,
+  poster: `/images/video-posters/product-${i + 1}.jpg`,
+}));
 
 export async function WatchAndBuy() {
   const products = await prisma.product.findMany({
@@ -15,13 +15,14 @@ export async function WatchAndBuy() {
 
   if (products.length === 0) return null;
 
-  const items: WatchAndBuyItem[] = VIDEOS.map((video, i) => {
+  const items: WatchAndBuyItem[] = VIDEOS.map(({ video, poster }, i) => {
     const product = products[i % products.length];
     return {
       slug: product.slug,
       name: product.name,
       price: product.variants[0]?.price ?? null,
       video,
+      poster,
     };
   });
 

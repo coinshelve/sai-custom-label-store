@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 export interface WatchAndBuyItem {
@@ -8,6 +8,7 @@ export interface WatchAndBuyItem {
   name: string;
   price: number | null;
   video: string;
+  poster: string;
 }
 
 export function WatchAndBuyGrid({ items }: { items: WatchAndBuyItem[] }) {
@@ -26,6 +27,34 @@ export function WatchAndBuyGrid({ items }: { items: WatchAndBuyItem[] }) {
       video.currentTime = 0;
     }
   }
+
+  // Devices without a mouse (phones/tablets) can't hover — preview instead
+  // by autoplaying whichever cards are scrolled into view, muted and looped,
+  // the same way a reels feed behaves.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (window.matchMedia("(hover: hover)").matches) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const video = entry.target as HTMLVideoElement;
+          if (entry.isIntersecting) {
+            video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        }
+      },
+      { threshold: 0.6 },
+    );
+
+    for (const video of videoRefs.current) {
+      if (video) observer.observe(video);
+    }
+
+    return () => observer.disconnect();
+  }, [items]);
 
   return (
     <>
@@ -49,6 +78,7 @@ export function WatchAndBuyGrid({ items }: { items: WatchAndBuyItem[] }) {
                 }}
                 className="h-full w-full object-cover"
                 src={item.video}
+                poster={item.poster}
                 muted
                 loop
                 playsInline
@@ -88,6 +118,7 @@ export function WatchAndBuyGrid({ items }: { items: WatchAndBuyItem[] }) {
             <video
               className="h-full w-full object-contain"
               src={items[openIndex].video}
+              poster={items[openIndex].poster}
               autoPlay
               loop
               controls
