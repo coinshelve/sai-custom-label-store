@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site-config";
 export function Footer() {
   return (
     <footer className="mt-16 border-t border-stone-200 bg-stone-50">
-      <div className="mx-auto grid max-w-7xl gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-7xl gap-8 px-6 py-12 sm:grid-cols-2 lg:grid-cols-5">
         <div>
           <h3 className="font-script text-2xl text-brand-800">
             {siteConfig.name}
@@ -13,7 +13,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-stone-900">Shop</h4>
+          <h4 className="text-sm font-semibold text-stone-900">Collections</h4>
           <ul className="mt-3 space-y-2 text-sm text-stone-600">
             {siteConfig.categories.map((category) => (
               <li key={category.slug}>
@@ -29,8 +29,44 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-stone-900">Help</h4>
+          <h4 className="text-sm font-semibold text-stone-900">Shop by Industry</h4>
           <ul className="mt-3 space-y-2 text-sm text-stone-600">
+            {siteConfig.useCases.map((useCase) => (
+              <li key={useCase.slug}>
+                <Link
+                  href={`/use-case/${useCase.slug}`}
+                  className="hover:text-brand-700"
+                >
+                  {useCase.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h4 className="text-sm font-semibold text-stone-900">Company</h4>
+          <ul className="mt-3 space-y-2 text-sm text-stone-600">
+            <li>
+              <Link href="/about" className="hover:text-brand-700">
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link href="/how-it-works" className="hover:text-brand-700">
+                How It Works
+              </Link>
+            </li>
+            <li>
+              <Link href="/bulk-orders" className="hover:text-brand-700">
+                Bulk Orders
+              </Link>
+            </li>
+            <li>
+              <Link href="/faq" className="hover:text-brand-700">
+                FAQ
+              </Link>
+            </li>
             <li>
               <Link href="/account" className="hover:text-brand-700">
                 My Account
@@ -52,10 +88,12 @@ export function Footer() {
         <div>
           <h4 className="text-sm font-semibold text-stone-900">Contact</h4>
           <ul className="mt-3 space-y-2 text-sm text-stone-600">
-            <li>hello@sailabelstore.example</li>
+            <li>{siteConfig.location}</li>
+            <li>{siteConfig.phoneDisplay}</li>
+            <li>hello@customlabelstore.com</li>
             <li>
               <a
-                href={`https://wa.me/${siteConfig.whatsappNumber}`}
+                href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappGreeting)}`}
                 className="hover:text-brand-700"
               >
                 WhatsApp Us

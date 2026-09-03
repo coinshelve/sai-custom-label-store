@@ -3,7 +3,7 @@ import { siteConfig } from "@/lib/site-config";
 export function WhatsAppFab() {
   return (
     <a
-      href={`https://wa.me/${siteConfig.whatsappNumber}`}
+      href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappGreeting)}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"

@@ -1,0 +1,2193 @@
+{
+  "categories": [
+    {
+      "name": "Labels & Stickers",
+      "slug": "labels-and-stickers",
+      "image": "/images/gallery/sai-01.jpeg"
+    },
+    {
+      "name": "Marketing Stationery",
+      "slug": "marketing-stationery",
+      "image": "/images/gallery/sai-04.jpeg"
+    },
+    {
+      "name": "Packaging",
+      "slug": "packaging",
+      "image": "/images/gallery/sai-14.jpeg"
+    },
+    {
+      "name": "Special Effects Products",
+      "slug": "special-effects-products",
+      "image": "/images/gallery/sai-09.jpeg"
+    }
+  ],
+  "products": [
+    {
+      "category": "Labels & Stickers",
+      "name": "Luxury Labels",
+      "slug": "luxury-labels",
+      "description": "Premium luxury labels crafted with elegant finishes, designed to elevate high-end products and leave a lasting brand impression.",
+      "images": [
+        "/images/gallery/sai-01.jpeg",
+        "/images/gallery/sai-02.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Variable Data Printed Labels",
+      "slug": "variable-data-printed-labels",
+      "description": "Precision-printed variable data labels supporting unique codes, batch numbers, and personalisation for large-scale production runs.",
+      "images": [
+        "/images/gallery/sai-03.jpeg",
+        "/images/gallery/sai-04.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Multi-SKU Small Volume Labels",
+      "slug": "multi-sku-small-volume-labels",
+      "description": "Flexible small-batch labels supporting multiple SKUs, ideal for growing brands managing several product variants at once.",
+      "images": [
+        "/images/gallery/sai-05.jpeg",
+        "/images/gallery/sai-06.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Branding Sticker Packs",
+      "slug": "branding-sticker-packs",
+      "description": "Custom branding sticker packs designed to boost visibility, strengthen brand identity, and enhance packaging with premium, durable finishes.",
+      "images": [
+        "/images/gallery/sai-07.jpeg",
+        "/images/gallery/sai-08.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Shape-Cut Promo Stickers",
+      "slug": "shape-cut-promo-stickers",
+      "description": "Custom shape-cut promotional stickers designed to stand out, boosting brand recall and campaign visibility everywhere they're placed.",
+      "images": [
+        "/images/gallery/sai-09.jpeg",
+        "/images/gallery/sai-10.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Tamper-Evident Labels",
+      "slug": "tamper-evident-labels",
+      "description": "Secure tamper-evident labels that visibly show signs of interference, protecting product integrity and building customer confidence.",
+      "images": [
+        "/images/gallery/sai-11.jpeg",
+        "/images/gallery/sai-12.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Waterproof Synthetic Labels",
+      "slug": "waterproof-synthetic-labels",
+      "description": "Durable synthetic labels engineered to resist water, oil, and abrasion, ideal for demanding outdoor and industrial use.",
+      "images": [
+        "/images/gallery/sai-13.jpeg",
+        "/images/gallery/sai-14.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Indoor Product Labels",
+      "slug": "indoor-product-labels",
+      "description": "Cost-effective indoor product labels offering crisp printing and reliable adhesion for everyday retail and household items.",
+      "images": [
+        "/images/gallery/sai-15.jpeg",
+        "/images/gallery/sai-01.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Kiss-Cut Custom Stickers",
+      "slug": "kiss-cut-custom-stickers",
+      "description": "Professionally kiss-cut custom stickers with an easy-peel backing, perfect for retail packaging and promotional giveaways.",
+      "images": [
+        "/images/gallery/sai-02.jpeg",
+        "/images/gallery/sai-03.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Die-Cut Sticker Sheets",
+      "slug": "die-cut-sticker-sheets",
+      "description": "Custom die-cut sticker sheets precisely shaped to your design, delivering clean finishes and professional branding for packaging and promotions.",
+      "images": [
+        "/images/gallery/sai-04.jpeg",
+        "/images/gallery/sai-05.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Washing Liquid Labels",
+      "slug": "washing-liquid-labels",
+      "description": "Water and detergent-resistant labels built for washing liquid bottles, ensuring clarity and durability through repeated handling.",
+      "images": [
+        "/images/gallery/sai-06.jpeg",
+        "/images/gallery/sai-07.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Dish Washer Labels",
+      "slug": "dish-washer-labels",
+      "description": "Water-resistant dishwasher labels crafted for cleaning products, ensuring durability, clear visibility, and strong adhesion in wet environments.",
+      "images": [
+        "/images/gallery/sai-08.jpeg",
+        "/images/gallery/sai-09.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Floor Cleaner Labels",
+      "slug": "floor-cleaner-labels",
+      "description": "Strong floor cleaner labels built for durability, offering chemical resistance and bold designs for clear product identification and branding.",
+      "images": [
+        "/images/gallery/sai-10.jpeg",
+        "/images/gallery/sai-11.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Toilet Cleaner Labels",
+      "slug": "toilet-cleaner-labels",
+      "description": "Chemical-resistant toilet cleaner labels designed for bold visibility and long-lasting adhesion in bathroom and cleaning environments.",
+      "images": [
+        "/images/gallery/sai-12.jpeg",
+        "/images/gallery/sai-13.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Herbal Product Labels",
+      "slug": "herbal-product-labels",
+      "description": "Natural herbal product labels crafted for organic brands, highlighting ingredients clearly while enhancing packaging appeal and building customer trust.",
+      "images": [
+        "/images/gallery/sai-14.jpeg",
+        "/images/gallery/sai-15.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Natural Cosmetic Labels",
+      "slug": "natural-cosmetic-labels",
+      "description": "Earthy, premium-finish labels crafted for natural cosmetic brands, highlighting clean ingredients while strengthening shelf presence.",
+      "images": [
+        "/images/gallery/sai-01.jpeg",
+        "/images/gallery/sai-02.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Organic Food Labels",
+      "slug": "organic-food-labels",
+      "description": "Food-safe organic labels designed to communicate freshness and trust, with durable finishes suited for perishable packaging.",
+      "images": [
+        "/images/gallery/sai-03.jpeg",
+        "/images/gallery/sai-04.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Wedding Sticker Labels",
+      "slug": "wedding-sticker-labels",
+      "description": "Elegant wedding sticker labels crafted for invitations and favours, adding a personalised, premium touch to every celebration.",
+      "images": [
+        "/images/gallery/sai-05.jpeg",
+        "/images/gallery/sai-06.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Gift Label Stickers",
+      "slug": "gift-label-stickers",
+      "description": "Attractive gift label stickers designed to enhance packaging aesthetics, adding a decorative and premium touch to every gifting experience.",
+      "images": [
+        "/images/gallery/sai-07.jpeg",
+        "/images/gallery/sai-08.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Calibration Labels",
+      "slug": "calibration-labels",
+      "description": "Professional calibration labels designed for clear identification, accurate tracking, and easy writing, ensuring compliance and long-lasting performance.",
+      "images": [
+        "/images/gallery/sai-09.jpeg",
+        "/images/gallery/sai-10.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Direct Thermal Labels",
+      "slug": "direct-thermal-labels",
+      "description": "Efficient direct thermal labels designed for fast, ink-free printing, ensuring cost-effective operations for shipping, retail, and logistics businesses.",
+      "images": [
+        "/images/gallery/sai-11.jpeg",
+        "/images/gallery/sai-12.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "E-commerce Address Labels",
+      "slug": "e-commerce-address-labels",
+      "description": "High-quality e-commerce address labels designed for clear printing, fast application, and seamless delivery operations in high-volume shipping environments.",
+      "images": [
+        "/images/gallery/sai-13.jpeg",
+        "/images/gallery/sai-14.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Shipping Labels",
+      "slug": "shipping-labels",
+      "description": "Reliable shipping labels built for fast printing and strong adhesion, keeping logistics and dispatch operations running smoothly.",
+      "images": [
+        "/images/gallery/sai-15.jpeg",
+        "/images/gallery/sai-01.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Barcode Labels",
+      "slug": "barcode-labels",
+      "description": "High-precision barcode labels ensuring fast, error-free scanning for retail, logistics, and inventory systems with reliable performance.",
+      "images": [
+        "/images/gallery/sai-02.jpeg",
+        "/images/gallery/sai-03.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Hazard Warning Labels",
+      "slug": "hazard-warning-labels",
+      "description": "High-visibility hazard warning labels designed for safety compliance, clearly communicating risks while ensuring durability in industrial environments.",
+      "images": [
+        "/images/gallery/sai-04.jpeg",
+        "/images/gallery/sai-05.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Pesticide Labels",
+      "slug": "pesticide-labels",
+      "description": "Compliant pesticide labels designed for clear hazard communication and chemical resistance in agricultural and industrial settings.",
+      "images": [
+        "/images/gallery/sai-06.jpeg",
+        "/images/gallery/sai-07.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Detergent Labels",
+      "slug": "detergent-labels",
+      "description": "Durable detergent labels built for tough conditions, offering water and chemical resistance while maintaining bold visibility and long-lasting quality.",
+      "images": [
+        "/images/gallery/sai-08.jpeg",
+        "/images/gallery/sai-09.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Paint Labels",
+      "slug": "paint-labels",
+      "description": "Solvent-resistant paint labels crafted to stay legible and secure on cans through storage, transport, and heavy use.",
+      "images": [
+        "/images/gallery/sai-10.jpeg",
+        "/images/gallery/sai-11.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Lubricant Oil Labels",
+      "slug": "lubricant-oil-labels",
+      "description": "Oil and grease-resistant lubricant labels designed for strong adhesion and clear branding on automotive and industrial containers.",
+      "images": [
+        "/images/gallery/sai-12.jpeg",
+        "/images/gallery/sai-13.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Milk Bottle Labels",
+      "slug": "milk-bottle-labels",
+      "description": "Moisture-resistant milk bottle labels offering crisp, hygienic printing that holds up through refrigeration and daily handling.",
+      "images": [
+        "/images/gallery/sai-14.jpeg",
+        "/images/gallery/sai-15.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Soft Drink Labels",
+      "slug": "soft-drink-labels",
+      "description": "Vibrant, condensation-resistant labels designed for soft drink bottles, keeping branding sharp from shelf to fridge.",
+      "images": [
+        "/images/gallery/sai-01.jpeg",
+        "/images/gallery/sai-02.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Juice Bottle Labels",
+      "slug": "juice-bottle-labels",
+      "description": "Bright, durable juice bottle labels crafted to stay vivid and secure through chilling, condensation, and daily use.",
+      "images": [
+        "/images/gallery/sai-03.jpeg",
+        "/images/gallery/sai-04.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Water Bottle Labels",
+      "slug": "water-bottle-labels",
+      "description": "Clean, moisture-resistant water bottle labels offering a premium look that stays intact through condensation and handling.",
+      "images": [
+        "/images/gallery/sai-05.jpeg",
+        "/images/gallery/sai-06.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Nutraceutical Labels",
+      "slug": "nutraceutical-labels",
+      "description": "Compliant nutraceutical labels designed for clear ingredient disclosure and a premium, trustworthy shelf presence.",
+      "images": [
+        "/images/gallery/sai-07.jpeg",
+        "/images/gallery/sai-08.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Syrup Bottle Labels",
+      "slug": "syrup-bottle-labels",
+      "description": "Durable syrup bottle labels crafted to resist stickiness and moisture while keeping dosage information clearly legible.",
+      "images": [
+        "/images/gallery/sai-09.jpeg",
+        "/images/gallery/sai-10.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Baby Care Product Labels",
+      "slug": "baby-care-product-labels",
+      "description": "Gentle, attractive baby care labels designed with soft colors and safe printing to build trust and enhance product appeal.",
+      "images": [
+        "/images/gallery/sai-11.jpeg",
+        "/images/gallery/sai-12.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Sanitizer Labels",
+      "slug": "sanitizer-labels",
+      "description": "Alcohol and moisture-resistant sanitizer labels built for durability and clarity across frequent handling and dispensing.",
+      "images": [
+        "/images/gallery/sai-13.jpeg",
+        "/images/gallery/sai-14.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Handwash Labels",
+      "slug": "handwash-labels",
+      "description": "Water-resistant handwash labels crafted for liquid soap packaging, ensuring durability, clarity, and strong branding in everyday usage environments.",
+      "images": [
+        "/images/gallery/sai-15.jpeg",
+        "/images/gallery/sai-01.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Soap Labels",
+      "slug": "soap-labels",
+      "description": "Attractive, moisture-resistant soap labels designed to enhance shelf appeal while standing up to everyday bathroom use.",
+      "images": [
+        "/images/gallery/sai-02.jpeg",
+        "/images/gallery/sai-03.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Perfume Labels",
+      "slug": "perfume-labels",
+      "description": "Elegant perfume labels with premium finishes, designed to reflect luxury branding and enhance bottle presentation.",
+      "images": [
+        "/images/gallery/sai-04.jpeg",
+        "/images/gallery/sai-05.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Cream & Lotion Labels",
+      "slug": "cream-lotion-labels",
+      "description": "Stylish cosmetic labels designed for creams and lotions, delivering moisture-resistant durability with premium print quality for stronger branding.",
+      "images": [
+        "/images/gallery/sai-06.jpeg",
+        "/images/gallery/sai-07.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Face Wash Labels",
+      "slug": "face-wash-labels",
+      "description": "Premium face wash labels designed for skincare brands, offering moisture resistance, sharp printing, and attractive designs for better shelf appeal.",
+      "images": [
+        "/images/gallery/sai-08.jpeg",
+        "/images/gallery/sai-09.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Shampoo Labels",
+      "slug": "shampoo-labels",
+      "description": "Moisture and oil-resistant shampoo labels offering vibrant printing that holds up in humid bathroom conditions.",
+      "images": [
+        "/images/gallery/sai-10.jpeg",
+        "/images/gallery/sai-11.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Snack Pack Labels",
+      "slug": "snack-pack-labels",
+      "description": "Food-grade snack pack labels designed for bold, appetising visuals that stand out on retail and grocery shelves.",
+      "images": [
+        "/images/gallery/sai-12.jpeg",
+        "/images/gallery/sai-13.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Sauce & Ketchup Labels",
+      "slug": "sauce-ketchup-labels",
+      "description": "Oil and moisture-resistant labels crafted for sauce and ketchup bottles, keeping branding vivid through daily kitchen use.",
+      "images": [
+        "/images/gallery/sai-14.jpeg",
+        "/images/gallery/sai-15.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Pickle Labels",
+      "slug": "pickle-labels",
+      "description": "Durable pickle jar labels resistant to oil and brine, designed to keep branding crisp through a long shelf life.",
+      "images": [
+        "/images/gallery/sai-01.jpeg",
+        "/images/gallery/sai-02.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Jam & Spread Labels",
+      "slug": "jam-spread-labels",
+      "description": "Vibrant, spill-resistant labels crafted for jam and spread jars, combining durability with appetising shelf presence.",
+      "images": [
+        "/images/gallery/sai-03.jpeg",
+        "/images/gallery/sai-04.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Honey Labels",
+      "slug": "honey-labels",
+      "description": "Premium honey jar labels with a natural, elegant finish designed to reflect purity and enhance perceived quality.",
+      "images": [
+        "/images/gallery/sai-05.jpeg",
+        "/images/gallery/sai-06.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Masala Labels",
+      "slug": "masala-labels",
+      "description": "Bold, moisture-resistant masala and spice labels designed for clear ingredient visibility and strong shelf standout.",
+      "images": [
+        "/images/gallery/sai-07.jpeg",
+        "/images/gallery/sai-08.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Hair Oil Labels",
+      "slug": "hair-oil-labels",
+      "description": "Durable hair oil labels designed for cosmetic packaging, offering oil resistance and premium finishes that enhance brand visibility and appeal.",
+      "images": [
+        "/images/gallery/sai-09.jpeg",
+        "/images/gallery/sai-10.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Ayurvedic / Herbal Oil Labels",
+      "slug": "ayurvedic-herbal-oil-labels",
+      "description": "Premium herbal oil labels crafted for natural brands, offering durable, oil-resistant finishes that elevate shelf appeal and trust instantly.",
+      "images": [
+        "/images/gallery/sai-11.jpeg",
+        "/images/gallery/sai-12.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Virgin Oil Labels",
+      "slug": "virgin-oil-labels",
+      "description": "Premium virgin oil labels crafted with oil-resistant finishes, reinforcing purity and quality for discerning customers.",
+      "images": [
+        "/images/gallery/sai-13.jpeg",
+        "/images/gallery/sai-14.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Labels & Stickers",
+      "name": "Edible Oil Labels",
+      "slug": "edible-oil-labels",
+      "description": "Food-grade edible oil labels crafted for durability and oil resistance, enhancing packaging appeal while ensuring safety and compliance standards.",
+      "images": [
+        "/images/gallery/sai-15.jpeg",
+        "/images/gallery/sai-01.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 350
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 1300
+        }
+      ],
+      "categorySlug": "labels-and-stickers"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Posters",
+      "slug": "posters",
+      "description": "High-impact posters printed with vibrant colours and sharp detail, ideal for promotions, events, and in-store displays.",
+      "images": [
+        "/images/gallery/sai-02.jpeg",
+        "/images/gallery/sai-03.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Table Tents",
+      "slug": "table-tents",
+      "description": "Sturdy table tents designed for restaurants and retail counters, delivering clear messaging exactly where customers look.",
+      "images": [
+        "/images/gallery/sai-04.jpeg",
+        "/images/gallery/sai-05.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Danglers & Wobblers",
+      "slug": "danglers-wobblers",
+      "description": "Eye-catching danglers and wobblers designed to capture attention instantly, boosting in-store visibility and driving higher customer engagement.",
+      "images": [
+        "/images/gallery/sai-06.jpeg",
+        "/images/gallery/sai-07.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Flyers & Brochures",
+      "slug": "flyers-brochures",
+      "description": "High-impact flyers and brochures designed to deliver powerful marketing messages with vibrant printing that captures attention and drives engagement.",
+      "images": [
+        "/images/gallery/sai-08.jpeg",
+        "/images/gallery/sai-09.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Letterheads",
+      "slug": "letterheads",
+      "description": "Professional letterheads crafted with premium paper and clean layouts, reinforcing brand identity on every official document.",
+      "images": [
+        "/images/gallery/sai-10.jpeg",
+        "/images/gallery/sai-11.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Marketing Stationery",
+      "name": "Visiting Cards",
+      "slug": "visiting-cards",
+      "description": "Premium visiting cards designed to make a strong first impression, with finishes that reflect professionalism and quality.",
+      "images": [
+        "/images/gallery/sai-12.jpeg",
+        "/images/gallery/sai-13.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 800
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1750
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 3000
+        }
+      ],
+      "categorySlug": "marketing-stationery"
+    },
+    {
+      "category": "Packaging",
+      "name": "Jewellery Backing Cards",
+      "slug": "jewellery-backing-cards",
+      "description": "Elegant jewellery backing cards designed to showcase pieces attractively while adding a premium retail presentation.",
+      "images": [
+        "/images/gallery/sai-14.jpeg",
+        "/images/gallery/sai-15.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Header / Backer Cards",
+      "slug": "header-backer-cards",
+      "description": "Custom header and backer cards designed for retail displays, enhancing product visibility while delivering strong and professional brand presentation.",
+      "images": [
+        "/images/gallery/sai-01.jpeg",
+        "/images/gallery/sai-02.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Insert Cards",
+      "slug": "insert-cards",
+      "description": "Custom insert cards crafted to add a personal touch inside packaging, strengthening the unboxing experience for customers.",
+      "images": [
+        "/images/gallery/sai-03.jpeg",
+        "/images/gallery/sai-04.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Kraft Packaging Sleeves",
+      "slug": "kraft-packaging-sleeves",
+      "description": "Eco-friendly kraft packaging sleeves offering a natural, premium look while protecting products through handling and shipping.",
+      "images": [
+        "/images/gallery/sai-05.jpeg",
+        "/images/gallery/sai-06.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Chocolate Sleeves",
+      "slug": "chocolate-sleeves",
+      "description": "Premium chocolate sleeves crafted to enhance packaging appeal, offering elegant designs that attract customers and elevate gifting experiences.",
+      "images": [
+        "/images/gallery/sai-07.jpeg",
+        "/images/gallery/sai-08.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Soap Packaging Sleeves",
+      "slug": "soap-packaging-sleeves",
+      "description": "Durable soap packaging sleeves designed for an elegant unboxing experience with strong shelf-ready presentation.",
+      "images": [
+        "/images/gallery/sai-09.jpeg",
+        "/images/gallery/sai-10.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Product Sleeves",
+      "slug": "product-sleeves",
+      "description": "Versatile product sleeves crafted to enhance packaging appeal while offering an extra layer of protection and branding.",
+      "images": [
+        "/images/gallery/sai-11.jpeg",
+        "/images/gallery/sai-12.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Packaging",
+      "name": "Mono Cartons",
+      "slug": "mono-cartons",
+      "description": "Sturdy mono cartons designed for secure, attractive packaging that protects products while reinforcing brand presentation.",
+      "images": [
+        "/images/gallery/sai-13.jpeg",
+        "/images/gallery/sai-14.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 1200
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 2500
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 4250
+        }
+      ],
+      "categorySlug": "packaging"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "White / Clear / Neon Toner Prints",
+      "slug": "white-clear-neon-toner-prints",
+      "description": "Specialty toner prints in white, clear, or neon finishes, designed to make labels and packaging stand out vividly.",
+      "images": [
+        "/images/gallery/sai-15.jpeg",
+        "/images/gallery/sai-01.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "Sand-Finish Labels",
+      "slug": "sand-finish-labels",
+      "description": "Textured sand-finish labels offering a premium tactile feel, ideal for brands wanting a distinctive, upscale shelf presence.",
+      "images": [
+        "/images/gallery/sai-02.jpeg",
+        "/images/gallery/sai-03.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "High Raised UV",
+      "slug": "high-raised-uv",
+      "description": "High raised UV coating that adds bold, glossy dimension to labels and packaging, creating a premium tactile finish.",
+      "images": [
+        "/images/gallery/sai-04.jpeg",
+        "/images/gallery/sai-05.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "Spot UV / Drip-off",
+      "slug": "spot-uv-drip-off",
+      "description": "Spot UV and drip-off finishing that highlights key design elements with a glossy contrast against matte backgrounds.",
+      "images": [
+        "/images/gallery/sai-06.jpeg",
+        "/images/gallery/sai-07.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "Foil Labels",
+      "slug": "foil-labels",
+      "description": "Luxury foil labels with stunning metallic finishes designed to elevate premium products and create a strong, high-end brand impression.",
+      "images": [
+        "/images/gallery/sai-08.jpeg",
+        "/images/gallery/sai-09.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "Greeting Cards",
+      "slug": "greeting-cards",
+      "description": "Custom greeting cards crafted with premium printing, delivering memorable impressions for personal celebrations and professional brand communication needs.",
+      "images": [
+        "/images/gallery/sai-10.jpeg",
+        "/images/gallery/sai-11.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    },
+    {
+      "category": "Special Effects Products",
+      "name": "Wedding Invitations",
+      "slug": "wedding-invitations",
+      "description": "Premium wedding invitations crafted with elegant finishes and quality printing to make every celebration memorable.",
+      "images": [
+        "/images/gallery/sai-12.jpeg",
+        "/images/gallery/sai-13.jpeg"
+      ],
+      "tiers": [
+        {
+          "label": "100",
+          "qty": 100,
+          "price": 600
+        },
+        {
+          "label": "250",
+          "qty": 250,
+          "price": 1300
+        },
+        {
+          "label": "500",
+          "qty": 500,
+          "price": 2250
+        }
+      ],
+      "categorySlug": "special-effects-products"
+    }
+  ],
+  "useCases": [
+    {
+      "name": "Food & Edible Oil Brands",
+      "slug": "food-edible-oil-brands",
+      "productSlugs": [
+        "edible-oil-labels",
+        "virgin-oil-labels",
+        "masala-labels",
+        "sauce-ketchup-labels",
+        "pickle-labels",
+        "jam-spread-labels",
+        "honey-labels",
+        "juice-bottle-labels",
+        "soft-drink-labels",
+        "milk-bottle-labels",
+        "snack-pack-labels",
+        "organic-food-labels",
+        "tamper-evident-labels",
+        "barcode-labels",
+        "variable-data-printed-labels"
+      ]
+    },
+    {
+      "name": "Cosmetics & Personal Care",
+      "slug": "cosmetics-personal-care",
+      "productSlugs": [
+        "cream-lotion-labels",
+        "face-wash-labels",
+        "hair-oil-labels",
+        "shampoo-labels",
+        "handwash-labels",
+        "soap-labels",
+        "sanitizer-labels",
+        "perfume-labels",
+        "ayurvedic-herbal-oil-labels",
+        "herbal-product-labels",
+        "natural-cosmetic-labels",
+        "luxury-labels",
+        "tamper-evident-labels",
+        "barcode-labels"
+      ]
+    },
+    {
+      "name": "E-commerce & D2C Sellers",
+      "slug": "e-commerce-d2c-sellers",
+      "productSlugs": [
+        "e-commerce-address-labels",
+        "shipping-labels",
+        "barcode-labels",
+        "tamper-evident-labels",
+        "variable-data-printed-labels",
+        "multi-sku-small-volume-labels",
+        "branding-sticker-packs",
+        "kiss-cut-custom-stickers",
+        "die-cut-sticker-sheets",
+        "shape-cut-promo-stickers",
+        "gift-label-stickers",
+        "indoor-product-labels"
+      ]
+    },
+    {
+      "name": "Pharma & Nutraceuticals",
+      "slug": "pharma-nutraceuticals",
+      "productSlugs": [
+        "nutraceutical-labels",
+        "syrup-bottle-labels",
+        "herbal-product-labels",
+        "ayurvedic-herbal-oil-labels",
+        "tamper-evident-labels",
+        "hazard-warning-labels",
+        "calibration-labels",
+        "barcode-labels",
+        "variable-data-printed-labels",
+        "direct-thermal-labels"
+      ]
+    },
+    {
+      "name": "Cafés & Bakeries",
+      "slug": "cafes-bakeries",
+      "productSlugs": [
+        "jam-spread-labels",
+        "honey-labels",
+        "snack-pack-labels",
+        "juice-bottle-labels",
+        "soft-drink-labels",
+        "organic-food-labels",
+        "sauce-ketchup-labels",
+        "gift-label-stickers",
+        "branding-sticker-packs",
+        "kiss-cut-custom-stickers",
+        "luxury-labels",
+        "barcode-labels"
+      ]
+    }
+  ]
+}

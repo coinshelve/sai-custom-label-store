@@ -25,7 +25,7 @@ export function Header() {
 
         <div className="ml-auto flex items-center gap-3 sm:gap-5">
           <a
-            href={`https://wa.me/${siteConfig.whatsappNumber}`}
+            href={`https://wa.me/${siteConfig.whatsappNumber}?text=${encodeURIComponent(siteConfig.whatsappGreeting)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden items-center gap-1.5 rounded-full bg-emerald-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-emerald-700 sm:flex"
